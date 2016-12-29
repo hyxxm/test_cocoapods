@@ -10,4 +10,5 @@ s.source = { :git => 'https://github.com/tianyahaijiaoHYX520/test_cocoapods.git'
 s.requires_arc = true
 s.ios.deployment_target = '8.0'
 s.source_files = 'HJCommon/*.{h,m}'
+s.dependency 'AFNetworking','3.1.0'
 end
